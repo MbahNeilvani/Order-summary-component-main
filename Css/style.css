@@ -162,4 +162,26 @@
         border-radius: 20px 20px 0 0;
     }
 
+    .content{
+        display: flex;
+        margin-top: 10px;
+        height: 150px;
+        padding: 20px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .content h1{
+        color: hsl(223, 47%, 23%);
+        font-size: 50px;
+    }
+
+    .content p{
+        display: flex;
+        font-size: 25px;
+        padding: 15px 38px;
+        line-height: 35px;
+        color: hsl(224, 23%, 55%);
+    }
+
 }
