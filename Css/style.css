@@ -184,4 +184,27 @@
         color: hsl(224, 23%, 55%);
     }
 
+    #annual{
+        display: flex;
+        margin: 40px 80px;
+        height: 90px;
+        padding: 10px;
+        border-radius: 10px;
+        background-color: hsl(225, 100%, 98%);
+        justify-content: space-around;
+    }
+
+    .annual-plan{
+        font-size: 25px;
+        line-height: 36px;
+    }
+
+    #annual a{
+        padding-top: 21px;
+        font-size: 25px;
+        font-weight: bolder;
+        color: hsl(245, 75%, 52%);
+        text-decoration: underline;
+    }
+
 }
