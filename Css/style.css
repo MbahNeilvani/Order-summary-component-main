@@ -207,4 +207,23 @@
         text-decoration: underline;
     }
 
+    footer{
+        display: flex;
+        height: 100px;
+        text-align: center;
+        flex-direction: column;
+    }
+    
+    button{
+        margin: 5px 80px 22px;
+        /* margin: 40px 80px; */
+        padding: 24px;
+        color: #fff;
+        font-size: 22px;
+        font-weight: bold;
+        border-radius: 10px;
+        box-shadow:  0 12px 12px 0 hsl(225, 100%, 94%);
+        background-color: hsl(245, 75%, 52%);
+    }
+
 }
