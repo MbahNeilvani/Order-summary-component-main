@@ -227,9 +227,26 @@
     }
 
     footer p{
+        /* margin: 0 280px; */
         font-size: 23px;
         font-weight: bolder;
         color:  hsl(224, 23%, 55%);
+    }
+
+    button:hover{
+        cursor: pointer;
+        background-color: hsl(224, 23%, 55%);
+    }
+
+    #annual a:hover{
+        cursor: pointer;
+        text-decoration: none;
+        color: hsl(224, 23%, 55%);
+    }
+
+    footer p:hover{
+        cursor: pointer;
+        color: hsl(223, 47%, 23%);
     }
 
 }
