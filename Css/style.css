@@ -1,18 +1,37 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    border: none;
-    outline: none;
-    scroll-behavior: smooth;
-    font-family: 'Roboto', sans-serif;
-    text-decoration: none;
-}
+@media screen and (max-width:375px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        border: none;
+        outline: none;
+        scroll-behavior: smooth;
+        font-family: 'Roboto', sans-serif;
+        text-decoration: none;
+    }
 
-@media only screen and (max-width:375px){
     body{
-        background-image:url(..//images/pattern-background-mobile.svg);
+        background-image:url(../images/pattern-background-mobile.svg);
         background-repeat: no-repeat;
         background-size:100% 210%;
     }
+
+    #container{
+        margin:auto;
+        width: 90%;
+        border-radius: 10px;
+        background-color: blue;
+    }
+
+    #main-pic{
+        display: flex;
+        margin: 80px;
+        background-color: #fff;
+    }
+
+    .pic{
+        width: 140%;
+    }
+
+    #
 }
