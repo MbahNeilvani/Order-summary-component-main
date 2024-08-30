@@ -20,12 +20,12 @@
         margin:30px;
         width: 80%;
         border-radius: 20px;
-        background-color: rgb(210, 210, 240);
+        background-color: #fff;
     }
 
     #main-pic{
         display: flex;
-        height: 200px;
+        height: 150px;
         
     }
 
@@ -36,16 +36,17 @@
     }
 
     .content{
-        margin: 0 40px;
-        background-color: burlywood;
         display: flex;
+        height: 150px;
+        padding: 20px;
         flex-direction: column;
-        align-content: center;
+        text-align: center;
     }
 
     .content p{
         display: flex;
-        font-size: 10px;
-        align-items: center;
+        font-size: 16px;
+        padding-top: 15px;
+        color: hsl(225, 100%, 83%);
     }
 }
