@@ -37,16 +37,50 @@
 
     .content{
         display: flex;
+        margin-top: 10px;
         height: 150px;
         padding: 20px;
         flex-direction: column;
         text-align: center;
     }
 
+    .content h1{
+        color: hsl(223, 47%, 23%);
+    }
+
     .content p{
         display: flex;
         font-size: 16px;
         padding-top: 15px;
-        color: hsl(225, 100%, 83%);
+        line-height: 23px;
+        color: hsl(224, 23%, 55%);
+    }
+
+    #annual{
+        display: flex;
+        margin: 20px;
+        height: 60px;
+        padding: 10px;
+        border-radius: 10px;
+        background-color: hsl(225, 100%, 98%);
+        justify-content: space-around;
+    }
+
+    .annual-plan{
+        line-height: 20px;
+    }
+
+    .annual-plan h3{
+        color: hsl(224, 23%, 55%);
+    }
+
+    .annual-plan p{
+        color: hsl(224, 23%, 55%)
+    }
+
+    #annual a{
+        padding-top: 10px;
+        font-weight: bolder;
+        text-decoration: underline;
     }
 }
