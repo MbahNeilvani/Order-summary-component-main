@@ -17,21 +17,35 @@
     }
 
     #container{
-        margin:auto;
-        width: 90%;
-        border-radius: 10px;
-        background-color: blue;
+        margin:30px;
+        width: 80%;
+        border-radius: 20px;
+        background-color: rgb(210, 210, 240);
     }
 
     #main-pic{
         display: flex;
-        margin: 80px;
-        background-color: #fff;
+        height: 200px;
+        
     }
 
     .pic{
-        width: 140%;
+        display: flex;
+        width: 100%;
+        border-radius: 20px 20px 0 0;
     }
 
-    #
+    .content{
+        margin: 0 40px;
+        background-color: burlywood;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .content p{
+        display: flex;
+        font-size: 10px;
+        align-items: center;
+    }
 }
