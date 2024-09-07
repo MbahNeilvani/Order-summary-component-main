@@ -150,4 +150,16 @@
         background-color: #fff;
     }
 
+    #main-pic{
+        display: flex;
+        height: 300px;
+        
+    }
+
+    .pic{
+        display: flex;
+        width: 100%;
+        border-radius: 20px 20px 0 0;
+    }
+
 }
