@@ -138,7 +138,16 @@
     body{
         background-image:url(../images/pattern-background-desktop.svg);
         background-repeat: no-repeat;
-        background-size:100% 210%;
+        background-size:100% 350%;
+    }
+
+    #container{
+        margin:90px auto 0px;
+        width: 40%;
+        height: 800px;
+        border-radius: 20px;
+        text-align: center;
+        background-color: #fff;
     }
 
 }
