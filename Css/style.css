@@ -122,3 +122,23 @@
         color: hsl(223, 47%, 23%);
     }
 }
+
+@media screen and (min-width:375px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        border: none;
+        outline: none;
+        scroll-behavior: smooth;
+        font-family: 'Roboto', sans-serif;
+        text-decoration: none;
+    }
+
+    body{
+        background-image:url(../images/pattern-background-desktop.svg);
+        background-repeat: no-repeat;
+        background-size:100% 210%;
+    }
+
+}
